@@ -1,6 +1,8 @@
 import { program } from 'commander'
 import { installV3MS, installTSL } from './index.js'
-import packageInfo from './package.json' assert { type: "json" }
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const packageInfo = require('./package.json')
 
 program
   .command('v3ms [name]')
