@@ -1,7 +1,7 @@
 {
   "name": "mosuzi-cli",
-  "version": "1.0.0",
-  "description": "create mosuzi scaffolds",
+  "version": "1.0.1",
+  "description": "mosuzi cli tools",
   "main": "index.js",
   "scripts": {
     "test:v3ms": "node ./cli.js v3ms test-v3ms",
@@ -16,7 +16,12 @@
     "cli.js",
     "index.js"
   ],
-  "author": "mosuzi",
+  "author": {
+    "name": "mosuzi",
+    "email": "mosuouyang@gmail.com",
+    "url": "https://github.com/mosuzi"
+  },
+  "repository": "github:mosuzi/mosuzi-cli",
   "license": "ISC",
   "dependencies": {
     "@inquirer/confirm": "^5.1.0",
