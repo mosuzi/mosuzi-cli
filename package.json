@@ -1,6 +1,6 @@
 {
-  "name": "create-mosuzi-scaffolds",
-  "version": "0.0.1",
+  "name": "mosuzi-cli",
+  "version": "1.0.0",
   "description": "create mosuzi scaffolds",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test:v3ms-noname": "node ./cli.js v3ms"
   },
   "bin": {
-    "create-mosuzi-scaffolds": "cli.js"
+    "mosuzi-cli": "cli.js"
   },
   "type": "module",
   "keywords": [],

@@ -9,6 +9,6 @@ program
     installV3MS(name)
   })
 
-program.version('0.0.1', '-v, -V, --version')
+program.version('1.0.0', '-v, -V, --version')
 
 program.parse()
