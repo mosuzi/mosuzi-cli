@@ -1,6 +1,6 @@
 {
   "name": "mosuzi-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "mosuzi cli tools",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
   "keywords": [],
   "files": [
     "cli.js",
-    "index.js"
+    "index.js",
+    "commands"
   ],
   "author": {
     "name": "mosuzi",
