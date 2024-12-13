@@ -1,11 +1,13 @@
 {
   "name": "mosuzi-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "mosuzi cli tools",
   "main": "index.js",
   "scripts": {
     "test:v3ms": "node ./cli.js v3ms test-v3ms",
-    "test:v3ms-noname": "node ./cli.js v3ms"
+    "test:v3ms-noname": "node ./cli.js v3ms",
+    "test:tsl": "node ./cli.js tsl test-tsl",
+    "test:tsl-noname": "node ./cli.js tsl"
   },
   "bin": {
     "mosuzi-cli": "cli.js"

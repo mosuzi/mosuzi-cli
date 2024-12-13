@@ -1,6 +1,6 @@
 import { program } from 'commander'
-
-import { installV3MS } from './index.js'
+import { installV3MS, installTSL } from './index.js'
+import packageInfo from './package.json' assert { type: "json" }
 
 program
   .command('v3ms [name]')
@@ -9,6 +9,12 @@ program
     installV3MS(name)
   })
 
-program.version('1.0.0', '-v, -V, --version')
+program.command('tsl [name]')
+.description('download a ts lib scaffold into a specified dictionary')
+.action(name => {
+  installTSL(name)
+})
+
+program.version(packageInfo.version, '-v, -V, --version')
 
 program.parse()
